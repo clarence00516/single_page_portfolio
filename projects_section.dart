@@ -15,11 +15,11 @@ class ProjectsSection extends StatelessWidget {
         children: [
           const Text(
             "PROJECTS",
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
-
-
   const SizedBox(height: 20),
+
+
   ProjectCard(
       imagePath: "assets/portfolioimage.png",
       title: "Simple Portfolio",
@@ -37,10 +37,8 @@ class ProjectsSection extends StatelessWidget {
   }
 },
 ),
-
-
-
 const SizedBox(height: 16),
+
 ProjectCard(
             imagePath: "assets/Calculatorpic.png",
             title: "C++ Calculator",
