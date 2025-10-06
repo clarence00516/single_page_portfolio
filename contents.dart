@@ -25,10 +25,10 @@ class Contents extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
 
       children: [
-        // Image on the left
+        
         Container(
-          height: 150,
-          width: 140,
+          height: 180,
+          width: 150,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
             boxShadow: [
@@ -58,21 +58,21 @@ class Contents extends StatelessWidget {
             children: const [
               Text(
                 "STUDENT DETAILS",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 8),
               Text(
                 "\nFull name: Clarence M. Cajardo",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w300),
               ),
               Text(
                 "\nYear and Section: BSIT-3A",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w300),
               ),
               SizedBox(height: 8),
               Text(
-                "\nPersonal Quote:\n\n'I am a student of University of Science and Technology of Southern Philippines, although struggles and suffering are inevitable, I will keep moving towards my goal.'",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                "'In order for us to grow, we always start with the smallest of steps before we can take a bigger leap.'",
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w300),
               ),
             ],
           ),
