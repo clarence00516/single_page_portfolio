@@ -30,7 +30,7 @@ class ProjectCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
 
           children: [
-            // Project Image
+           
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
@@ -40,9 +40,10 @@ class ProjectCard extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            const SizedBox(width: 16),
+            
+            const SizedBox(width: 20),
 
-            // Project Info
+            
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
