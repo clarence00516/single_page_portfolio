@@ -133,6 +133,7 @@ class SkillsSection extends StatelessWidget {
                   child: Text(
                     "Photography and Videography",
                     style: TextStyle(fontSize: 15),
+                    
                   ),
                 ),
               ],
