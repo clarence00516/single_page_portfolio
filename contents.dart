@@ -62,16 +62,16 @@ class Contents extends StatelessWidget {
               ),
               SizedBox(height: 8),
               Text(
-                "\nFull name: Clarence M. Cajardo",
+                "\nClarence M. Cajardo",
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.w300),
               ),
               Text(
-                "\nYear and Section: BSIT-3A",
+                "\nBSIT-3A",
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.w300),
               ),
               SizedBox(height: 8),
               Text(
-                "'In order for us to grow, we always start with the smallest of steps before we can take a bigger leap.'",
+                "\n'In order for us to grow, we always start with the smallest of steps before we can take a bigger leap.'",
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.w300),
               ),
             ],
