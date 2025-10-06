@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'contents.dart';
+import '../widgets/contents.dart';
 
 class HomePage extends StatefulWidget {
   final VoidCallback toggleTheme;
