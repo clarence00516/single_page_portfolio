@@ -26,7 +26,7 @@ class _MyPortfolioState extends State<MyPortfolio> {
     return MaterialApp(
       theme: isDarkMode ? ThemeData.dark() : ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      title: 'Portfolio',
+      title: 'PORTFOLIO',
       home: HomePage(toggleTheme: toggleTheme),
     );
   }
