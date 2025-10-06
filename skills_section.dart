@@ -15,11 +15,11 @@ class SkillsSection extends StatelessWidget {
         children: [
           const Text(
             "Skills",
-            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 10),
 
-          // Skill 1
+  
           Container(
             margin: const EdgeInsets.symmetric(vertical: 6.0),
             padding: const EdgeInsets.all(12.0),
@@ -35,15 +35,15 @@ class SkillsSection extends StatelessWidget {
                 SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    "I am a traditional artist as a hobby,\nI excel at drawing creatures and monsters.",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                    "Traditional Art, Digital Art",
+                    style: TextStyle(fontSize: 15),
                   ),
                 ),
               ],
             ),
           ),
 
-          // Skill 2
+          
           Container(
             margin: const EdgeInsets.symmetric(vertical: 6.0),
             padding: const EdgeInsets.all(12.0),
@@ -59,15 +59,15 @@ class SkillsSection extends StatelessWidget {
                 SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    "I utilize AI tools for polishing my works\nand to assist me with my studies.",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                    "AI tools utilization",
+                    style: TextStyle(fontSize: 15),
                   ),
                 ),
               ],
             ),
           ),
 
-          // Skill 3
+         
           Container(
             margin: const EdgeInsets.symmetric(vertical: 6.0),
             padding: const EdgeInsets.all(12.0),
@@ -83,15 +83,15 @@ class SkillsSection extends StatelessWidget {
                 SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    "I excel at researching and reporting,\nI have learned new ways to become better.",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                    "Creative Writing, Reporting",
+                    style: TextStyle(fontSize: 15),
                   ),
                 ),
               ],
             ),
           ),
 
-          // Skill 4
+          
           Container(
             margin: const EdgeInsets.symmetric(vertical: 6.0),
             padding: const EdgeInsets.all(12.0),
@@ -107,15 +107,15 @@ class SkillsSection extends StatelessWidget {
                 SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    "I am a beginner when it comes to programming,\nbut I am willing to learn.",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                    "Programming, Web Designing",
+                    style: TextStyle(fontSize: 15),
                   ),
                 ),
               ],
             ),
           ),
 
-          // Skill 5
+          
           Container(
             margin: const EdgeInsets.symmetric(vertical: 6.0),
             padding: const EdgeInsets.all(12.0),
@@ -131,8 +131,8 @@ class SkillsSection extends StatelessWidget {
                 SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    "I got basic knowledge when it comes to video editing.\nI am also learning Photography.",
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w200),
+                    "Photography and Videography",
+                    style: TextStyle(fontSize: 15),
                   ),
                 ),
               ],
